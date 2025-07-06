@@ -1,0 +1,10 @@
+@use "./base";
+@use "./mixins";
+
+@use "./components/header";
+@use "./pages/hero";
+@use "./pages/about";
+@use "./pages/services";
+@use "./pages/works";
+@use "./pages/contact";
+@use "./components/footer";
