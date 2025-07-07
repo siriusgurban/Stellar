@@ -63,3 +63,69 @@
     }
   }
 }
+
+@media (max-width: 500px){
+  @mixin primaryBtn() {
+    .hero_button {
+    .hero_btn {
+      position: relative;
+      display: inline-block;
+      background-color: transparent;
+      color: variables.$white;
+      padding: 23px 80px 23px 40px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      white-space: nowrap;
+      color: variables.$white;
+      font-size: 12px;
+      font-weight: 600;
+      border: 2px solid variables.$orange;
+      transition: all 0.3s ease;
+
+      &::before {
+        content: "";
+        height: 100%;
+        width: 0;
+        background-color: #f26522;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      &:hover {
+        background-color: variables.$orange;
+        border: 2px solid variables.$orange;
+        transition: all 0.3s ease;
+      }
+
+      &::after {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("../../../assets/images/icons/objects/icon-arrow-right.svg");
+        background-size: contain;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        margin-top: -10px;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
+
+      &:hover::after {
+        right: 22px;
+      }
+    }
+  }
+}
+}
