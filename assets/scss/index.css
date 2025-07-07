@@ -188,6 +188,14 @@ main .hero .container {
 main .hero .container .row {
   padding-top: 200px;
 }
+main .hero .container .row .right_elements {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+main .hero .container .row .right_elements .hero_scroll {
+  transform: rotate(-90deg);
+}
 main .hero .container .row .hero_content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -391,6 +399,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   }
 }
 @media (max-width: 800px) {
+  main .hero .container .row .hero_content .hero_arrow a {
+    align-items: flex-start;
+  }
   main .hero .container .row .hero_content .hero_arrow a .hero_arrow_text {
     display: none;
   }

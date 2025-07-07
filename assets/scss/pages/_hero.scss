@@ -17,6 +17,17 @@ main {
       max-width: 1306px;
       .row {
         padding-top: 200px;
+
+        .right_elements{
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          .hero_scroll{
+            transform: rotate(-90deg);
+          }
+        }
+
+
         .hero_content {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
@@ -209,6 +220,7 @@ main {
           .hero_content {
             .hero_arrow {
               a {
+                align-items: flex-start;
                 .hero_arrow_text {
                   display: none;
                 }
