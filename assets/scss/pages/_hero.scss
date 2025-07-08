@@ -6,7 +6,7 @@ main {
     height: 100vh;
     width: 100%;
     min-height: 768px;
-    background-image: url(../../../assets/images/hero-bg.jpg);
+    background-image: url("../../../assets/images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,15 +18,60 @@ main {
       .row {
         padding-top: 200px;
 
-        .right_elements{
+        .right_elements {
+          // width: 100%;
+          width: 36px;
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
           position: absolute;
-          top: 30px;
-          right: 30px;
-          .hero_scroll{
+          top: 50px;
+          right: 60px;
+
+          .hero_social {
+            .hero_social_item {
+              width: 36px;
+              height: 36px;
+              margin-bottom: 14px;
+              a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: variables.$white;
+                transition: 0.5s ease;
+
+                i {
+                  font-size: 20px;
+                }
+
+              }
+            }
+          }
+
+          .hero_scroll {
             transform: rotate(-90deg);
+            a {
+              width: 100%;
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 3.5px;
+              text-transform: uppercase;
+              color: variables.$white;
+              transition: 0.5s ease;
+            }
+          }
+
+          .hero_scroll:hover {
+            a {
+              color: variables.$orange;
+              transition: 0.5s ease;
+            }
           }
         }
-
 
         .hero_content {
           display: grid;

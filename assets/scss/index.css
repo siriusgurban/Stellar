@@ -175,7 +175,7 @@ main .hero {
   height: 100vh;
   width: 100%;
   min-height: 768px;
-  background-image: url(../../../assets/images/hero-bg.jpg);
+  background-image: url("../../../assets/images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,12 +189,48 @@ main .hero .container .row {
   padding-top: 200px;
 }
 main .hero .container .row .right_elements {
+  width: 36px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 50px;
+  right: 60px;
+}
+main .hero .container .row .right_elements .hero_social .hero_social_item {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 14px;
+}
+main .hero .container .row .right_elements .hero_social .hero_social_item a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 0.5s ease;
+}
+main .hero .container .row .right_elements .hero_social .hero_social_item a i {
+  font-size: 20px;
 }
 main .hero .container .row .right_elements .hero_scroll {
   transform: rotate(-90deg);
+}
+main .hero .container .row .right_elements .hero_scroll a {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.5s ease;
+}
+main .hero .container .row .right_elements .hero_scroll:hover a {
+  color: #F26522;
+  transition: 0.5s ease;
 }
 main .hero .container .row .hero_content {
   display: grid;
@@ -450,4 +486,39 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     font-size: 30px;
     line-height: 36px;
   }
+}
+.about .container .row {
+  flex-direction: column;
+  padding: 180px 0;
+}
+.about .container .row .about_content .about_subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.33px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #F26522;
+  margin-bottom: 36px;
+}
+.about .container .row .about_content .about_title {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 69px;
+  letter-spacing: -0.3px;
+  margin-bottom: 48px;
+}
+.about .container .row .about_content .about_text {
+  font-family: "Merriweather", serif;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  letter-spacing: 1.8px;
+  color: #8C8C8C;
+  margin-bottom: 36px;
 }/*# sourceMappingURL=index.css.map */

@@ -3,6 +3,44 @@
 // as *
 .about {
   .container {
+    .row {
+      flex-direction: column;
+      padding: 180px 0;
+      .about_content {
+        .about_subtitle {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 21.33px;
+          letter-spacing: 2.5px;
+          text-align: left;
+          text-transform: uppercase;
+          color: variables.$orange;
+          margin-bottom: 36px;
+        }
 
+        .about_title {
+          width: 90%;
+          margin: 0 auto;
+          font-size: 46px;
+          font-weight: 600;
+          line-height: 69px;
+          letter-spacing: -0.3px;
+          margin-bottom: 48px;
+        }
+
+        .about_text {
+          font-family: "Merriweather", serif;
+          width: 90%;
+          margin: 0 auto;
+          font-size: 24px;
+          font-weight: 300;
+          line-height: 40px;
+          text-align: left;
+          letter-spacing: 1.8px;
+          color: variables.$black45;
+          margin-bottom: 36px;
+        }
+      }
+    }
   }
 }
