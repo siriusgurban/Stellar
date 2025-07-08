@@ -4,44 +4,9 @@
 .about {
   .container {
     .row {
-      flex-direction: column;
-      gap: 84px;
-      padding: 180px 0;
-      .about_content {
-        .about_subtitle {
-          font-size: 16px;
-          font-weight: 600;
-          line-height: 21.33px;
-          letter-spacing: 2.5px;
-          text-align: left;
-          text-transform: uppercase;
-          color: variables.$orange;
-          margin-bottom: 36px;
-        }
+      @include mixins.row_padding();
 
-        .about_title {
-          width: 90%;
-          margin: 0 auto;
-          font-size: 46px;
-          font-weight: 600;
-          line-height: 69px;
-          letter-spacing: -0.3px;
-          margin-bottom: 48px;
-        }
-
-        .about_text {
-          font-family: "Merriweather", serif;
-          width: 90%;
-          margin: 0 auto;
-          font-size: 24px;
-          font-weight: 300;
-          line-height: 40px;
-          text-align: left;
-          letter-spacing: 1.8px;
-          color: variables.$black45;
-          margin-bottom: 36px;
-        }
-      }
+      @include mixins.section_content(variables.$black, variables.$black45);
 
       .about_box {
         display: flex;
@@ -94,20 +59,9 @@
     .container {
       width: 89%;
       .row {
-        gap: 64px;
-        padding: 162px 0;
-        .about_content {
-          .about_title {
-            width: 100%;
-            font-size: 42px;
-            line-height: 54px;
-          }
+        @include mixins.row_padding();
 
-          .about_text {
-            width: 100%;
-            font-size: 22px;
-          }
-        }
+        @include mixins.section_content(variables.$black, variables.$black45);
       }
     }
   }
@@ -117,19 +71,9 @@
   .about {
     .container {
       .row {
-        flex-direction: column;
-        gap: 44px;
-        padding: 162px 0;
-        .about_content {
-          .about_title {
-            font-size: 38px;
-            line-height: 54px;
-          }
+        @include mixins.row_padding();
 
-          .about_text {
-            font-size: 20px;
-          }
-        }
+        @include mixins.section_content(variables.$black, variables.$black45);
 
         .about_box {
           gap: 34px;
@@ -152,19 +96,9 @@
     .container {
       width: 90%;
       .row {
-        flex-direction: column;
-        gap: 44px;
-        padding: 162px 0;
-        .about_content {
-          .about_title {
-            width: 100%;
-            font-size: 35px;
-          }
+        @include mixins.row_padding();
 
-          .about_text {
-            width: 100%;
-          }
-        }
+        @include mixins.section_content(variables.$black, variables.$black45);
       }
     }
   }
@@ -175,31 +109,15 @@
     .container {
       width: 90%;
       .row {
-        flex-direction: column;
-        gap: 40px;
-        padding: 152px 0;
-        .about_content {
-          .about_subtitle {
-            font-size: 13px;
-          }
+        @include mixins.row_padding();
 
-          .about_title {
-            font-size: 26px;
-            line-height: 36px;
-          }
+        @include mixins.section_content(variables.$black, variables.$black45);
 
-          .about_text {
-            font-size: 18px;
-                        line-height: 34px;
-
-          }
-        }
-
-        .about_box{
-          .about_box_item{
+        .about_box {
+          .about_box_item {
             min-width: 0;
-            .about_box_header{
-              .about_box_title{
+            .about_box_header {
+              .about_box_title {
                 font-size: 20px;
               }
             }

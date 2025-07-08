@@ -2,6 +2,123 @@
 @use "../mixins";
 
 .services {
+  width: 100%;
+  background-image: url("../../../assets/images/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   .container {
+    .row {
+      @include mixins.row_padding();
+
+      @include mixins.section_content(variables.$white, variables.$black30);
+
+      .services_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+        .services_box_item {
+          min-width: 290px;
+          width: 30%;
+          .services_box_item_subtitle {
+            font-family: "Libre Baskerville", serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: variables.$orange;
+            margin-bottom: 46px;
+          }
+
+          .services_box_item_title {
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 27px;
+            margin-bottom: 24px;
+            color: variables.$white;
+          }
+
+          .services_box_item_text {
+            font-family: "Merriweather";
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 33px;
+            letter-spacing: 1.2px;
+            color: variables.$black45;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .services {
+    .container {
+      width: 89%;
+
+      .row {
+        @include mixins.row_padding();
+
+        @include mixins.section_content(variables.$white, variables.$black30);
+
+        .services_box {
+          .services_box_item {
+            min-width: 47%;
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .services {
+
+    .container {
+
+      .row {
+        @include mixins.row_padding();
+
+        @include mixins.section_content(variables.$white, variables.$black30);
+
+        .services_box {
+          .services_box_item {
+            min-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px){
+  .services {
+
+    .container {
+
+      .row {
+        @include mixins.row_padding();
+
+        @include mixins.section_content(variables.$white, variables.$black30);
+
+        .services_box {
+          .services_box_item {
+            min-width: 100%;
+            width: 100%;
+            .services_box_item_title{
+              font-size: 19px;
+              margin-bottom: 16px;
+            }
+
+                .services_box_item_text{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
   }
 }
