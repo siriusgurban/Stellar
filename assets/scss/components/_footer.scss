@@ -8,31 +8,26 @@
     position: absolute;
     top: 0px;
     right: 60px;
-    width: 60px;
-    height: 60px;
-    background-color: variables.$black;
-    transition: all 0.4s ease;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     a {
-      color: variables.$white;
+      width: 60px;
+      height: 60px;
+      background-color: variables.$black;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       i {
-        width: 9.5px;
-        height: 15px;
+        color: variables.$white;
+
+        width: 12px;
+        height: 16.8px;
+      }
+      &:hover {
+        background-color: variables.$orange;
       }
     }
-    &:hover {
-      background-color: variables.$orange;
-      a {
-        // color: variables.$black;
-      }
-    }
-  }
-  &.footer_scroll {
-    transition: all 0.4s ease;
-    background-color: variables.$orange;
   }
 
   .container {
@@ -44,6 +39,37 @@
         line-height: 27.17px;
         letter-spacing: 0%;
         color: variables.$black30;
+        a {
+          text-wrap: nowrap;
+          color: variables.$white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    .container {
+      width: 89%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    .footer_scroll {
+      top: -1px;
+      right: 50%;
+      transform: translateX(50%);
+    }
+
+    .container {
+      .row {
+        padding-top: 74px;
+        .footer_text {
+          text-align: center;
+        }
       }
     }
   }

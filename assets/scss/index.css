@@ -536,6 +536,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   margin-bottom: 48px;
   color: #000;
 }
+.about .container .row .section_title a {
+  color: #035D5C;
+  transition: 0.5s ease;
+}
+.about .container .row .section_title a:hover {
+  color: #F26522;
+  transition: 0.5s ease;
+}
 .about .container .row .section_text {
   font-family: "Merriweather", serif;
   width: 90%;
@@ -687,6 +695,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     margin-bottom: 48px;
     color: #000;
   }
+  .about .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .about .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
+  }
   .about .container .row .section_text {
     font-family: "Merriweather", serif;
     width: 90%;
@@ -793,6 +809,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     letter-spacing: -0.3px;
     margin-bottom: 48px;
     color: #000;
+  }
+  .about .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .about .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
   }
   .about .container .row .section_text {
     font-family: "Merriweather", serif;
@@ -917,6 +941,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     margin-bottom: 48px;
     color: #000;
   }
+  .about .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .about .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
+  }
   .about .container .row .section_text {
     font-family: "Merriweather", serif;
     width: 90%;
@@ -1026,6 +1058,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     letter-spacing: -0.3px;
     margin-bottom: 48px;
     color: #000;
+  }
+  .about .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .about .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
   }
   .about .container .row .section_text {
     font-family: "Merriweather", serif;
@@ -1145,6 +1185,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: -0.3px;
   margin-bottom: 48px;
   color: #fff;
+}
+.services .container .row .section_title a {
+  color: #035D5C;
+  transition: 0.5s ease;
+}
+.services .container .row .section_title a:hover {
+  color: #F26522;
+  transition: 0.5s ease;
 }
 .services .container .row .section_text {
   font-family: "Merriweather", serif;
@@ -1289,6 +1337,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     margin-bottom: 48px;
     color: #fff;
   }
+  .services .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .services .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
+  }
   .services .container .row .section_text {
     font-family: "Merriweather", serif;
     width: 90%;
@@ -1402,6 +1458,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     margin-bottom: 48px;
     color: #fff;
   }
+  .services .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .services .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
+  }
   .services .container .row .section_text {
     font-family: "Merriweather", serif;
     width: 90%;
@@ -1514,6 +1578,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     letter-spacing: -0.3px;
     margin-bottom: 48px;
     color: #fff;
+  }
+  .services .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .services .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
   }
   .services .container .row .section_text {
     font-family: "Merriweather", serif;
@@ -1631,6 +1703,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: -0.3px;
   margin-bottom: 48px;
   color: #000;
+}
+.works .container .row .section_title a {
+  color: #035D5C;
+  transition: 0.5s ease;
+}
+.works .container .row .section_title a:hover {
+  color: #F26522;
+  transition: 0.5s ease;
 }
 .works .container .row .section_text {
   font-family: "Merriweather", serif;
@@ -1769,6 +1849,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: -0.3px;
   margin-bottom: 48px;
   color: #fff;
+}
+.clients .container .row .section_title a {
+  color: #035D5C;
+  transition: 0.5s ease;
+}
+.clients .container .row .section_title a:hover {
+  color: #F26522;
+  transition: 0.5s ease;
 }
 .clients .container .row .section_text {
   font-family: "Merriweather", serif;
@@ -1932,6 +2020,14 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     letter-spacing: -0.3px;
     margin-bottom: 48px;
     color: #fff;
+  }
+  .clients .container .row .section_title a {
+    color: #035D5C;
+    transition: 0.5s ease;
+  }
+  .clients .container .row .section_title a:hover {
+    color: #F26522;
+    transition: 0.5s ease;
   }
   .clients .container .row .section_text {
     font-family: "Merriweather", serif;
@@ -2202,6 +2298,254 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     font-size: 13px;
   }
 }
+.contact {
+  background-color: #151515;
+}
+.contact .container .row {
+  flex-direction: column;
+  gap: 84px;
+  padding: 180px 0;
+}
+@media (max-width: 1200px) {
+  .contact .container .row {
+    gap: 64px;
+    padding: 162px 0;
+  }
+}
+@media (max-width: 800px) {
+  .contact .container .row {
+    gap: 44px;
+    padding: 162px 0;
+  }
+}
+@media (max-width: 600px) {
+  .contact .container .row {
+    gap: 44px;
+    padding: 162px 0;
+  }
+}
+@media (max-width: 400px) {
+  .contact .container .row {
+    gap: 20px;
+    padding: 152px 0;
+  }
+}
+.contact .container .row .section_subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.33px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #F26522;
+  margin-bottom: 36px;
+}
+.contact .container .row .section_title {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 69px;
+  letter-spacing: -0.3px;
+  margin-bottom: 48px;
+  color: #fff;
+}
+.contact .container .row .section_title a {
+  color: #035D5C;
+  transition: 0.5s ease;
+}
+.contact .container .row .section_title a:hover {
+  color: #F26522;
+  transition: 0.5s ease;
+}
+.contact .container .row .section_text {
+  font-family: "Merriweather", serif;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  letter-spacing: 1.8px;
+  color: #5F5E5F;
+  margin-bottom: 36px;
+}
+@media (max-width: 1200px) {
+  .contact .container .row .section_title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .contact .container .row .section_text {
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 800px) {
+  .contact .container .row .section_title {
+    font-size: 38px;
+    line-height: 54px;
+  }
+  .contact .container .row .section_text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contact .container .row .section_title {
+    width: 100%;
+    font-size: 35px;
+  }
+  .contact .container .row .section_text {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .contact .container .row .section_subtitle {
+    font-size: 13px;
+  }
+  .contact .container .row .section_title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .contact .container .row .section_text {
+    font-size: 18px;
+    line-height: 34px;
+  }
+}
+.contact .container .row .contact_find {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 56px;
+}
+.contact .container .row .contact_find .contact_find_box .contact_find_box_title {
+  margin-bottom: 48px;
+  color: rgba(255, 255, 255, 0.2078431373);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.contact .container .row .contact_find .contact_find_box a {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 47.99px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact .container .row .contact_find_box:nth-child(1) {
+  width: 38%;
+}
+.contact .container .row .contact_find_box:nth-child(2) {
+  width: 24%;
+}
+.contact .container .row .contact_find_box:nth-child(3) {
+  width: 24%;
+}
+.contact .container .row .contact_talk {
+  display: flex;
+  width: 100%;
+}
+.contact .container .row .contact_talk .contact_btn {
+  width: 43%;
+}
+.contact .container .row .contact_talk .contact_btn .contact_element {
+  width: 150px;
+  height: 2px;
+  color: #fff;
+  margin-bottom: 64px;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  padding: 25px 82px 25px 42px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border: 2px solid #F26522;
+  transition: all 0.3s ease;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn::before {
+  content: "";
+  height: 100%;
+  width: 0;
+  background-color: #f26522;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover {
+  background-color: #F26522;
+  border: 2px solid #F26522;
+  transition: all 0.3s ease;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn::after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../../assets/images/icons/objects/icon-arrow-right.svg");
+  background-size: contain;
+  transition: all 0.2s ease-in-out;
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover::before {
+  width: 100%;
+}
+.contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover::after {
+  right: 22px;
+}
+.contact .container .row .contact_talk .contact_form {
+  width: 57%;
+}
+.contact .container .row .contact_talk .contact_form label {
+  margin-bottom: 64px;
+  color: rgba(255, 255, 255, 0.2078431373);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.contact .container .row .contact_talk .contact_form .contact_form_inp {
+  display: flex;
+  margin-top: 48px;
+}
+.contact .container .row .contact_talk .contact_form .contact_form_inp input {
+  border: none;
+  padding: 23.5px 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 65%;
+}
+.contact .container .row .contact_talk .contact_form .contact_form_inp button {
+  padding: 25px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  background-color: #F26522;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
 .footer {
   background-color: #151515;
   border-top: 1px solid rgba(255, 255, 255, 0.03);
@@ -2211,6 +2555,8 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   position: absolute;
   top: 0px;
   right: 60px;
+}
+.footer .footer_scroll a {
   width: 60px;
   height: 60px;
   background-color: #000;
@@ -2220,18 +2566,12 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   justify-content: center;
   align-items: center;
 }
-.footer .footer_scroll a {
-  color: #fff;
-}
 .footer .footer_scroll a i {
-  width: 9.5px;
-  height: 15px;
+  color: #fff;
+  width: 12px;
+  height: 16.8px;
 }
-.footer .footer_scroll:hover {
-  background-color: #F26522;
-}
-.footer.footer_scroll {
-  transition: all 0.4s ease;
+.footer .footer_scroll a:hover {
   background-color: #F26522;
 }
 .footer .container .row {
@@ -2243,4 +2583,27 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   line-height: 27.17px;
   letter-spacing: 0%;
   color: #5F5E5F;
+}
+.footer .container .row .footer_text a {
+  text-wrap: nowrap;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .footer .container {
+    width: 89%;
+  }
+}
+@media (max-width: 600px) {
+  .footer .footer_scroll {
+    top: -1px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .footer .container .row {
+    padding-top: 74px;
+  }
+  .footer .container .row .footer_text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=index.css.map */

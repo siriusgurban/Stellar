@@ -1,0 +1,106 @@
+@use "../variables";
+@use "../mixins";
+
+.contact {
+  background-color: variables.$black95;
+  .container {
+    .row {
+      @include mixins.row_padding();
+
+      @include mixins.section_content(variables.$white, variables.$black30);
+
+      .contact_find {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 56px;
+        .contact_find_box {
+          .contact_find_box_title {
+            margin-bottom: 48px;
+            color: variables.$white25;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 2px;
+            text-align: left;
+            text-transform: uppercase;
+          }
+
+          a {
+            color: variables.$white;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 47.99px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+      }
+
+      .contact_find_box:nth-child(1) {
+        width: 38%;
+      }
+      .contact_find_box:nth-child(2) {
+        width: 24%;
+      }
+      .contact_find_box:nth-child(3) {
+        width: 24%;
+      }
+
+      .contact_talk {
+        display: flex;
+        width: 100%;
+
+        .contact_btn {
+          width: 43%;
+          .contact_element {
+            width: 150px;
+            height: 2px;
+            color: variables.$white;
+            margin-bottom: 64px;
+          }
+          @include mixins.primaryBtn();
+        }
+
+        .contact_form {
+          width: 57%;
+          label {
+            margin-bottom: 64px;
+            color: variables.$white25;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 2px;
+            text-align: left;
+            text-transform: uppercase;
+          }
+
+          .contact_form_inp {
+            display: flex;
+            margin-top: 48px;
+
+            input {
+              border: none;
+              padding: 23.5px 30px;
+              background-color: rgba(0, 0, 0, 0.2);
+              width: 65%;
+            }
+
+            button {
+              padding: 25px;
+              color: variables.$white;
+              font-size: 12px;
+              font-weight: 600;
+              letter-spacing: 3px;
+              background-color: variables.$orange;
+              cursor: pointer;
+              border: none;
+              transition: all 0.3s ease;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}
