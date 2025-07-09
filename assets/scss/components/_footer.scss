@@ -1,6 +1,50 @@
 @use "../variables";
 
 .footer {
+  background-color: variables.$black95;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  position: relative;
+  .footer_scroll {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    width: 60px;
+    height: 60px;
+    background-color: variables.$black;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: variables.$white;
+      i {
+        width: 9.5px;
+        height: 15px;
+      }
+    }
+    &:hover {
+      background-color: variables.$orange;
+      a {
+        // color: variables.$black;
+      }
+    }
+  }
+  &.footer_scroll {
+    transition: all 0.4s ease;
+    background-color: variables.$orange;
+  }
+
   .container {
+    .row {
+      padding: 44px 0;
+      .footer_text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27.17px;
+        letter-spacing: 0%;
+        color: variables.$black30;
+      }
+    }
   }
 }
