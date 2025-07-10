@@ -16,4 +16,4 @@ Also responsive design exists.
 
 #
 
-Link to the site [Landerz](https://siriusgurban.github.io/Stellar/)
+Link to the stars [Stellar](https://siriusgurban.github.io/Stellar/)
