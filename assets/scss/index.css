@@ -509,6 +509,7 @@ html {
   .hero .container .row .hero_content .hero_arrow a .hero_arrow_text {
     font-size: 11px;
     display: block;
+    padding-top: 18px;
   }
 }
 @media (max-width: 500px) {

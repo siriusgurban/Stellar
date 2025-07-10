@@ -35,8 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-
 const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav_item");
 
@@ -45,9 +43,6 @@ window.addEventListener("scroll", () => {
 
   sections.forEach((section) => {
     const rect = section.getBoundingClientRect();
-    console.log(rect, "rect");
-    console.log(window.innerHeight, "window.innerHeight");
-
     if (
       rect.top <= window.innerHeight / 2 &&
       rect.bottom >= window.innerHeight / 2
@@ -58,7 +53,6 @@ window.addEventListener("scroll", () => {
 
   navItems.forEach((item) => {
     const anchor = item.querySelector("a");
-    console.log(item, "item");
 
     const href = anchor.getAttribute("href");
 
