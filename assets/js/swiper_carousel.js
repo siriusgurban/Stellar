@@ -1,26 +1,22 @@
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  // direction: 'vertical',
-  loop: true,
-  speed: 700,
-  // slidesPerView: 1,
-  autoplay: {
-    delay: 3000, // Delay between transitions in autoplay mode
-  },
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
-
-  // If we need pagination
+var swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
 
-  // Navigation arrows
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+  loop: true,
+  spaceBetween: 20,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  // Optional: responsive breakpoints
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 1,
+    },
   },
 });
