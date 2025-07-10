@@ -1963,36 +1963,40 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: -1px;
   text-align: center;
 }
-.works .container .row .slider .slider_box {
-  max-width: 400px;
+.works .container .row .mySwiper {
+  width: 100%;
+  padding-bottom: 80px;
 }
-.works .container .row .slider .slider_box .slider_box_text {
+.works .container .row .mySwiper .slider_box {
+  max-width: 50%;
+}
+.works .container .row .mySwiper .slider_box .slider_box_text {
   color: #595959;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
   margin-bottom: 36px;
 }
-.works .container .row .slider .slider_box .silder_box_user {
+.works .container .row .mySwiper .slider_box .silder_box_user {
   display: flex;
   gap: 18px;
   align-items: center;
 }
-.works .container .row .slider .slider_box .silder_box_user .user_img {
+.works .container .row .mySwiper .slider_box .silder_box_user .user_img {
   width: 72px;
   height: 72px;
 }
-.works .container .row .slider .slider_box .silder_box_user .user_img img {
+.works .container .row .mySwiper .slider_box .silder_box_user .user_img img {
   border-radius: 50%;
   width: 100%;
   height: 100%;
 }
-.works .container .row .slider .slider_box .silder_box_user .user_detail .user_name {
+.works .container .row .mySwiper .slider_box .silder_box_user .user_detail .user_name {
   font-size: 16px;
   font-weight: 700;
   line-height: 18.75px;
 }
-.works .container .row .slider .slider_box .silder_box_user .user_detail .user_title {
+.works .container .row .mySwiper .slider_box .silder_box_user .user_detail .user_title {
   font-size: 14px;
   font-weight: 400;
   line-height: 27px;
@@ -2000,6 +2004,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 }
 
 @media (max-width: 1200px) {
+  .works .container {
+    width: 85%;
+  }
   .works .works_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2034,6 +2041,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   }
 }
 @media (max-width: 800px) {
+  .works .container {
+    width: 89%;
+  }
   .works .works_grid {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
@@ -2062,6 +2072,22 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   }
   .works .works_grid .grid_eight {
     grid-area: 4/2/5/3;
+  }
+  .container .row h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .container .row .mySwiper {
+    width: 100%;
+  }
+  .container .row .mySwiper .slider_box {
+    width: 100%;
+  }
+  .container .row .mySwiper .slider_box .slider_box_text {
+    text-align: center;
   }
 }
 @media (max-width: 400px) {

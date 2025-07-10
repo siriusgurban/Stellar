@@ -1,6 +1,11 @@
-var swiper = new Swiper(".swiper", {
+var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
+  },
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
   },
 
   loop: true,
@@ -12,11 +17,11 @@ var swiper = new Swiper(".swiper", {
   },
   // Optional: responsive breakpoints
   breakpoints: {
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
+    400: {
       slidesPerView: 1,
+    },
+    800: {
+      slidesPerView: 2,
     },
   },
 });
