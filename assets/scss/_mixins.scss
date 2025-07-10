@@ -74,6 +74,13 @@
     text-transform: uppercase;
     color: variables.$orange;
     margin-bottom: 36px;
+    span {
+      display: inline-block;
+      width: 45px;
+      height: 1px;
+      background-color: variables.$orange;
+      vertical-align: middle;
+    }
   }
 
   .section_title {
@@ -146,6 +153,9 @@
   @media (max-width: 400px) {
     .section_subtitle {
       font-size: 13px;
+      span {
+        width: 25px;
+      }
     }
 
     .section_title {

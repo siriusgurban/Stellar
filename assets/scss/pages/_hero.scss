@@ -6,7 +6,7 @@ main {
     height: 100vh;
     width: 100%;
     min-height: 768px;
-    background-image: url("../../assets/images/hero-bg.jpg");
+    background-image: url("../../assets/images/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,6 @@ main {
         padding-top: 200px;
 
         .right_elements {
-          // width: 100%;
           width: 36px;
           height: 90%;
           display: flex;
@@ -47,6 +46,11 @@ main {
                   font-size: 20px;
                 }
 
+                &:hover {
+                  transition: 0.3s ease;
+                  color: variables.$orange;
+                  transform: scale(1.5);
+                }
               }
             }
           }
@@ -100,7 +104,7 @@ main {
           @include mixins.primaryBtn();
 
           .hero_arrow {
-            transition: 0.5s ease;
+            transition: all 0.5s ease;
             display: flex;
             align-items: center;
             a {
@@ -120,6 +124,7 @@ main {
                 background-color: transparent;
                 background-color: variables.$white10;
                 border-radius: 50%;
+                transition: 0.4s ease;
                 img {
                   width: 30px;
                   height: 30px;
@@ -134,22 +139,21 @@ main {
                 letter-spacing: 4px;
                 text-align: center;
                 text-transform: uppercase;
+                transition: all 0.4s ease;
               }
             }
-          }
 
-          .hero_arrow:hover {
-            transition: 0.5s ease;
-            a {
-              .hero_arrow_circle {
-                background-color: variables.$orange;
-                img {
-                  width: 30px;
-                  height: 30px;
+            &:hover {
+              transition: all 0.4s ease;
+              a {
+                .hero_arrow_circle {
+                  background-color: variables.$orange;
                 }
-              }
-              .hero_arrow_text {
-                color: variables.$white;
+
+                .hero_arrow_text {
+                  transition: all 0.4s ease;
+                  color: variables.$white;
+                }
               }
             }
           }
@@ -230,6 +234,13 @@ main {
     .hero {
       .container {
         .row {
+          .right_elements {
+            top: 700px;
+            .hero_social {
+              display: none;
+            }
+          }
+
           .hero_content {
             display: grid;
             grid-template-columns: repeat(3, 1fr);

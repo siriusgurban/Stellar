@@ -179,7 +179,7 @@ main .hero {
   height: 100vh;
   width: 100%;
   min-height: 768px;
-  background-image: url("../../assets/images/hero-bg.jpg");
+  background-image: url("../../assets/images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -218,6 +218,11 @@ main .hero .container .row .right_elements .hero_social .hero_social_item a {
 }
 main .hero .container .row .right_elements .hero_social .hero_social_item a i {
   font-size: 20px;
+}
+main .hero .container .row .right_elements .hero_social .hero_social_item a:hover {
+  transition: 0.3s ease;
+  color: #F26522;
+  transform: scale(1.5);
 }
 main .hero .container .row .right_elements .hero_scroll {
   transform: rotate(-90deg);
@@ -312,7 +317,7 @@ main .hero .container .row .hero_content .hero_button .hero_btn:hover::after {
   right: 22px;
 }
 main .hero .container .row .hero_content .hero_arrow {
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
   display: flex;
   align-items: center;
 }
@@ -334,6 +339,7 @@ main .hero .container .row .hero_content .hero_arrow a .hero_arrow_circle {
   background-color: transparent;
   background-color: rgba(255, 255, 255, 0.062745098);
   border-radius: 50%;
+  transition: 0.4s ease;
 }
 main .hero .container .row .hero_content .hero_arrow a .hero_arrow_circle img {
   width: 30px;
@@ -347,18 +353,16 @@ main .hero .container .row .hero_content .hero_arrow a .hero_arrow_text {
   letter-spacing: 4px;
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.4s ease;
 }
 main .hero .container .row .hero_content .hero_arrow:hover {
-  transition: 0.5s ease;
+  transition: all 0.4s ease;
 }
 main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_circle {
   background-color: #F26522;
 }
-main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_circle img {
-  width: 30px;
-  height: 30px;
-}
 main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
+  transition: all 0.4s ease;
   color: #fff;
 }
 
@@ -417,6 +421,12 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   }
 }
 @media (max-width: 1000px) {
+  main .hero .container .row .right_elements {
+    top: 700px;
+  }
+  main .hero .container .row .right_elements .hero_social {
+    display: none;
+  }
   main .hero .container .row .hero_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -530,6 +540,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   color: #F26522;
   margin-bottom: 36px;
 }
+.about .container .row .section_subtitle span {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #F26522;
+  vertical-align: middle;
+}
 .about .container .row .section_title {
   width: 90%;
   margin: 0 auto;
@@ -592,6 +609,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) {
   .about .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .about .container .row .section_subtitle span {
+    width: 25px;
   }
   .about .container .row .section_title {
     font-size: 26px;
@@ -689,6 +709,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     color: #F26522;
     margin-bottom: 36px;
   }
+  .about .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
+  }
   .about .container .row .section_title {
     width: 90%;
     margin: 0 auto;
@@ -753,6 +780,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   .about .container .row .section_subtitle {
     font-size: 13px;
   }
+  .about .container .row .section_subtitle span {
+    width: 25px;
+  }
   .about .container .row .section_title {
     font-size: 26px;
     line-height: 36px;
@@ -803,6 +833,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     text-transform: uppercase;
     color: #F26522;
     margin-bottom: 36px;
+  }
+  .about .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
   }
   .about .container .row .section_title {
     width: 90%;
@@ -867,6 +904,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 800px) and (max-width: 400px) {
   .about .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .about .container .row .section_subtitle span {
+    width: 25px;
   }
   .about .container .row .section_title {
     font-size: 26px;
@@ -935,6 +975,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     color: #F26522;
     margin-bottom: 36px;
   }
+  .about .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
+  }
   .about .container .row .section_title {
     width: 90%;
     margin: 0 auto;
@@ -999,6 +1046,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   .about .container .row .section_subtitle {
     font-size: 13px;
   }
+  .about .container .row .section_subtitle span {
+    width: 25px;
+  }
   .about .container .row .section_title {
     font-size: 26px;
     line-height: 36px;
@@ -1052,6 +1102,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     text-transform: uppercase;
     color: #F26522;
     margin-bottom: 36px;
+  }
+  .about .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
   }
   .about .container .row .section_title {
     width: 90%;
@@ -1117,6 +1174,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   .about .container .row .section_subtitle {
     font-size: 13px;
   }
+  .about .container .row .section_subtitle span {
+    width: 25px;
+  }
   .about .container .row .section_title {
     font-size: 26px;
     line-height: 36px;
@@ -1136,7 +1196,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 }
 .services {
   width: 100%;
-  background-image: url("../../assets/images/services-bg.jpg");
+  background-image: url("../../assets/images/services.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1179,6 +1239,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   text-transform: uppercase;
   color: #F26522;
   margin-bottom: 36px;
+}
+.services .container .row .section_subtitle span {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #F26522;
+  vertical-align: middle;
 }
 .services .container .row .section_title {
   width: 90%;
@@ -1242,6 +1309,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) {
   .services .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .services .container .row .section_subtitle span {
+    width: 25px;
   }
   .services .container .row .section_title {
     font-size: 26px;
@@ -1331,6 +1401,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     color: #F26522;
     margin-bottom: 36px;
   }
+  .services .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
+  }
   .services .container .row .section_title {
     width: 90%;
     margin: 0 auto;
@@ -1395,6 +1472,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   .services .container .row .section_subtitle {
     font-size: 13px;
   }
+  .services .container .row .section_subtitle span {
+    width: 25px;
+  }
   .services .container .row .section_title {
     font-size: 26px;
     line-height: 36px;
@@ -1451,6 +1531,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     text-transform: uppercase;
     color: #F26522;
     margin-bottom: 36px;
+  }
+  .services .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
   }
   .services .container .row .section_title {
     width: 90%;
@@ -1515,6 +1602,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 800px) and (max-width: 400px) {
   .services .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .services .container .row .section_subtitle span {
+    width: 25px;
   }
   .services .container .row .section_title {
     font-size: 26px;
@@ -1573,6 +1663,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     color: #F26522;
     margin-bottom: 36px;
   }
+  .services .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
+  }
   .services .container .row .section_title {
     width: 90%;
     margin: 0 auto;
@@ -1636,6 +1733,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) and (max-width: 400px) {
   .services .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .services .container .row .section_subtitle span {
+    width: 25px;
   }
   .services .container .row .section_title {
     font-size: 26px;
@@ -1697,6 +1797,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   text-transform: uppercase;
   color: #F26522;
   margin-bottom: 36px;
+}
+.works .container .row .section_subtitle span {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #F26522;
+  vertical-align: middle;
 }
 .works .container .row .section_title {
   width: 90%;
@@ -1760,6 +1867,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) {
   .works .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .works .container .row .section_subtitle span {
+    width: 25px;
   }
   .works .container .row .section_title {
     font-size: 26px;
@@ -1844,6 +1954,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   color: #F26522;
   margin-bottom: 36px;
 }
+.clients .container .row .section_subtitle span {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #F26522;
+  vertical-align: middle;
+}
 .clients .container .row .section_title {
   width: 90%;
   margin: 0 auto;
@@ -1907,6 +2024,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   .clients .container .row .section_subtitle {
     font-size: 13px;
   }
+  .clients .container .row .section_subtitle span {
+    width: 25px;
+  }
   .clients .container .row .section_title {
     font-size: 26px;
     line-height: 36px;
@@ -1965,7 +2085,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   transform: scale(1.2);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .clients .container {
     width: 85%;
   }
@@ -2014,6 +2134,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
     text-transform: uppercase;
     color: #F26522;
     margin-bottom: 36px;
+  }
+  .clients .container .row .section_subtitle span {
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: #F26522;
+    vertical-align: middle;
   }
   .clients .container .row .section_title {
     width: 90%;
@@ -2078,6 +2205,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 1000px) and (max-width: 400px) {
   .clients .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .clients .container .row .section_subtitle span {
+    width: 25px;
   }
   .clients .container .row .section_title {
     font-size: 26px;
@@ -2227,7 +2357,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 .statistic {
   width: 100%;
   height: 372px;
-  background-image: url("../../assets/images/stats-bg.jpg");
+  background-image: url("../../assets/images/stats.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -2344,6 +2474,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   color: #F26522;
   margin-bottom: 36px;
 }
+.contact .container .row .section_subtitle span {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #F26522;
+  vertical-align: middle;
+}
 .contact .container .row .section_title {
   width: 90%;
   margin: 0 auto;
@@ -2406,6 +2543,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) {
   .contact .container .row .section_subtitle {
     font-size: 13px;
+  }
+  .contact .container .row .section_subtitle span {
+    width: 25px;
   }
   .contact .container .row .section_title {
     font-size: 26px;
@@ -2542,6 +2682,10 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   padding: 23.5px 30px;
   background-color: rgba(0, 0, 0, 0.2);
   width: 65%;
+  color: #fff;
+}
+.contact .container .row .contact_talk .contact_form .contact_form_inp input:focus {
+  outline: none;
 }
 .contact .container .row .contact_talk .contact_form .contact_form_inp button {
   padding: 25px;

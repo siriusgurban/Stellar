@@ -94,6 +94,11 @@
               padding: 23.5px 30px;
               background-color: rgba(0, 0, 0, 0.2);
               width: 65%;
+              color: variables.$white ;
+            }
+
+            input:focus {
+              outline: none;
             }
 
             button {
