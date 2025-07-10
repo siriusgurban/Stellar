@@ -10,6 +10,7 @@
       @include mixins.section_content(variables.$white, variables.$black30);
 
       .contact_find {
+        margin-bottom: 60px;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -24,6 +25,7 @@
             letter-spacing: 2px;
             text-align: left;
             text-transform: uppercase;
+            text-wrap: nowrap;
           }
 
           a {
@@ -45,6 +47,13 @@
       }
       .contact_find_box:nth-child(3) {
         width: 24%;
+        ul {
+          li {
+            a {
+              text-wrap: nowrap;
+            }
+          }
+        }
       }
 
       .contact_talk {
@@ -73,6 +82,7 @@
             letter-spacing: 2px;
             text-align: left;
             text-transform: uppercase;
+            cursor: cell;
           }
 
           .contact_form_inp {
@@ -97,6 +107,140 @@
               border: none;
               transition: all 0.3s ease;
               text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    .container {
+      width: 89%;
+      .row {
+        .contact_find_box:nth-child(1) {
+          width: 50%;
+        }
+        .contact_find_box:nth-child(2) {
+          width: 30%;
+        }
+        .contact_find_box:nth-child(3) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    .container {
+      .row {
+        .contact_find_box:nth-child(1) {
+          width: 100%;
+        }
+        .contact_find_box:nth-child(2) {
+          width: 100%;
+        }
+
+        .contact_talk {
+          display: flex;
+          flex-direction: column;
+          gap: 80px;
+          width: 100%;
+
+          .contact_btn {
+            .contact_element {
+              width: 100%;
+              height: 2px;
+              color: variables.$white;
+              margin-bottom: 64px;
+            }
+            @include mixins.primaryBtn();
+          }
+
+          .contact_form {
+            width: 100%;
+
+            .contact_form_inp {
+              input {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    .container {
+      .row {
+        .contact_talk {
+          width: 100%;
+          justify-content: center;
+          .contact_btn {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .contact_form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            label {
+              margin: 0 auto;
+            }
+
+            .contact_form_inp {
+              display: flex;
+              flex-direction: column;
+              gap: 16px;
+              margin-top: 16px;
+
+              input {
+                width: 100%;
+              }
+              input::placeholder {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .contact {
+    .container {
+      .row {
+        .contact_find {
+          gap: 24px;
+          .contact_find_box {
+            .contact_find_box_title {
+              font-size: 14px;
+              margin-bottom: 20px;
+            }
+
+            a {
+              font-size: 18px;
+              line-height: 28px;
+            }
+          }
+        }
+
+        .contact_talk {
+          .contact_form {
+            label {
+              font-size: 14px;
             }
           }
         }

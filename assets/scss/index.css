@@ -8,6 +8,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 79.2%;
   max-width: 1140px;
@@ -175,7 +179,7 @@ main .hero {
   height: 100vh;
   width: 100%;
   min-height: 768px;
-  background-image: url("../../../assets/images/hero-bg.jpg");
+  background-image: url("../../assets/images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -507,13 +511,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) {
   .about .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) {
   .about .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 .about .container .row .section_subtitle {
@@ -665,13 +669,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 1200px) and (max-width: 600px) {
   .about .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 1200px) and (max-width: 400px) {
   .about .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 1200px) {
@@ -780,13 +784,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 800px) and (max-width: 600px) {
   .about .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 800px) and (max-width: 400px) {
   .about .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 800px) {
@@ -911,13 +915,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) and (max-width: 600px) {
   .about .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 600px) and (max-width: 400px) {
   .about .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 600px) {
@@ -1029,13 +1033,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) and (max-width: 600px) {
   .about .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) and (max-width: 400px) {
   .about .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 400px) {
@@ -1132,7 +1136,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 }
 .services {
   width: 100%;
-  background-image: url("../../../assets/images/services-bg.jpg");
+  background-image: url("../../assets/images/services-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1157,13 +1161,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) {
   .services .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) {
   .services .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 .services .container .row .section_subtitle {
@@ -1307,13 +1311,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 1200px) and (max-width: 600px) {
   .services .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 1200px) and (max-width: 400px) {
   .services .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 1200px) {
@@ -1428,13 +1432,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 800px) and (max-width: 600px) {
   .services .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 800px) and (max-width: 400px) {
   .services .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 800px) {
@@ -1549,13 +1553,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 400px) and (max-width: 600px) {
   .services .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) and (max-width: 400px) {
   .services .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 400px) {
@@ -1675,13 +1679,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) {
   .works .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) {
   .works .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 .works .container .row .section_subtitle {
@@ -1821,13 +1825,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) {
   .clients .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) {
   .clients .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 .clients .container .row .section_subtitle {
@@ -1991,13 +1995,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 1000px) and (max-width: 600px) {
   .clients .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 1000px) and (max-width: 400px) {
   .clients .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 @media (max-width: 1000px) {
@@ -2223,7 +2227,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 .statistic {
   width: 100%;
   height: 372px;
-  background-image: url("../../../assets/images/stats-bg.jpg");
+  background-image: url("../../assets/images/stats-bg.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -2321,13 +2325,13 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 @media (max-width: 600px) {
   .contact .container .row {
     gap: 44px;
-    padding: 162px 0;
+    padding: 142px 0;
   }
 }
 @media (max-width: 400px) {
   .contact .container .row {
     gap: 20px;
-    padding: 152px 0;
+    padding: 122px 0;
   }
 }
 .contact .container .row .section_subtitle {
@@ -2413,6 +2417,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   }
 }
 .contact .container .row .contact_find {
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -2427,6 +2432,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: 2px;
   text-align: left;
   text-transform: uppercase;
+  text-wrap: nowrap;
 }
 .contact .container .row .contact_find .contact_find_box a {
   color: #fff;
@@ -2444,6 +2450,9 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
 }
 .contact .container .row .contact_find_box:nth-child(3) {
   width: 24%;
+}
+.contact .container .row .contact_find_box:nth-child(3) ul li a {
+  text-wrap: nowrap;
 }
 .contact .container .row .contact_talk {
   display: flex;
@@ -2522,6 +2531,7 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   letter-spacing: 2px;
   text-align: left;
   text-transform: uppercase;
+  cursor: cell;
 }
 .contact .container .row .contact_talk .contact_form .contact_form_inp {
   display: flex;
@@ -2546,6 +2556,149 @@ main .hero .container .row .hero_content .hero_arrow:hover a .hero_arrow_text {
   text-transform: uppercase;
 }
 
+@media (max-width: 1000px) {
+  .contact .container {
+    width: 89%;
+  }
+  .contact .container .row .contact_find_box:nth-child(1) {
+    width: 50%;
+  }
+  .contact .container .row .contact_find_box:nth-child(2) {
+    width: 30%;
+  }
+  .contact .container .row .contact_find_box:nth-child(3) {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .contact .container .row .contact_find_box:nth-child(1) {
+    width: 100%;
+  }
+  .contact .container .row .contact_find_box:nth-child(2) {
+    width: 100%;
+  }
+  .contact .container .row .contact_talk {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+  }
+  .contact .container .row .contact_talk .contact_btn .contact_element {
+    width: 100%;
+    height: 2px;
+    color: #fff;
+    margin-bottom: 64px;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 25px 82px 25px 42px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid #F26522;
+    transition: all 0.3s ease;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: #f26522;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover {
+    background-color: #F26522;
+    border: 2px solid #F26522;
+    transition: all 0.3s ease;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../assets/images/icons/objects/icon-arrow-right.svg");
+    background-size: contain;
+    transition: all 0.2s ease-in-out;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover::before {
+    width: 100%;
+  }
+  .contact .container .row .contact_talk .contact_btn .hero_button .hero_btn:hover::after {
+    right: 22px;
+  }
+  .contact .container .row .contact_talk .contact_form {
+    width: 100%;
+  }
+  .contact .container .row .contact_talk .contact_form .contact_form_inp input {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .contact .container .row .contact_talk {
+    width: 100%;
+    justify-content: center;
+  }
+  .contact .container .row .contact_talk .contact_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .container .row .contact_talk .contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact .container .row .contact_talk .contact_form label {
+    margin: 0 auto;
+  }
+  .contact .container .row .contact_talk .contact_form .contact_form_inp {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .contact .container .row .contact_talk .contact_form .contact_form_inp input {
+    width: 100%;
+  }
+  .contact .container .row .contact_talk .contact_form .contact_form_inp input::-moz-placeholder {
+    text-align: center;
+  }
+  .contact .container .row .contact_talk .contact_form .contact_form_inp input::placeholder {
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .contact .container .row .contact_find {
+    gap: 24px;
+  }
+  .contact .container .row .contact_find .contact_find_box .contact_find_box_title {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .contact .container .row .contact_find .contact_find_box a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .contact .container .row .contact_talk .contact_form label {
+    font-size: 14px;
+  }
+}
 .footer {
   background-color: #151515;
   border-top: 1px solid rgba(255, 255, 255, 0.03);
