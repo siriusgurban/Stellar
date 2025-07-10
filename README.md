@@ -9,9 +9,11 @@ This project created with HTML, CSS, Vanilla JS. Also used libraries are SwiperJ
 
 Also responsive design exists.
 
-![image](https://github.com/user-attachments/assets/4e406a9c-32e1-419a-a785-a81656c772e5)
+<img width="412" height="828" alt="image" src="https://github.com/user-attachments/assets/49ff1933-f864-4dde-b2e8-3c25746df9d9" /> <img width="412" height="832" alt="image" src="https://github.com/user-attachments/assets/d1bffba3-2c36-49dd-8ef8-91a5ed550462" />
+
+
 
 
 #
 
-Link to the site [Landerz](https://siriusgurban.github.io/Landerz/)
+Link to the site [Landerz](https://siriusgurban.github.io/Stellar/)
