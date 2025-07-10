@@ -1,7 +1,7 @@
 @use "../variables";
 @use "../mixins";
 
-main {
+
   .hero {
     height: 100vh;
     width: 100%;
@@ -161,10 +161,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 1200px) {
-  main {
     .hero {
       .container {
         .row {
@@ -227,10 +225,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 1000px) {
-  main {
     .hero {
       .container {
         .row {
@@ -266,10 +262,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 800px) {
-  main {
     .hero {
       .container {
         .row {
@@ -287,10 +281,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 600px) {
-  main {
     .hero {
       .container {
         .row {
@@ -328,10 +320,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 500px) {
-  main {
     .hero {
       .container {
         .row {
@@ -346,10 +336,8 @@ main {
       }
     }
   }
-}
 
 @media (max-width: 400px) {
-  main {
     .hero {
       .container {
         .row {
@@ -363,4 +351,3 @@ main {
       }
     }
   }
-}

@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../scss/index.css" />
-    <link
-      rel="icon"
-      href="../images/icons/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon" />
     <title>Stellar | Contact</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <div class="row" id="row">
           <div class="logo">
@@ -39,7 +35,7 @@
               <li class="nav_item"><a href="../../index.html#services">Services</a></li>
               <li class="nav_item"><a href="../../index.html#works">Works</a></li>
               <li class="nav_item nav_active">
-                <a href="./assets/pages/contact.html">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
@@ -47,11 +43,10 @@
       </div>
     </header>
     <main>
-
-            <section class="contact" id="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <div class="row">
-            <div class="section_content">
+            <div class="section_content" data-aos="fade-up">
               <p class="section_subtitle">05. <span></span> Get In Touch</p>
               <h2 class="section_title">
                 Have an idea or an epic project in mind? Talk to us. Let’s work
@@ -59,11 +54,13 @@
                 <a href="mailto:hello@stellar.com">hello@stellar.com</a>
               </h2>
             </div>
-            <div class="contact_find">
+            <div class="contact_find" data-aos="fade-up">
               <div class="contact_find_box">
                 <h2 class="contact_find_box_title">Where to Find Us</h2>
-                <a href="https://www.google.com/maps/search/1600 Amphitheatre Parkway Mountain View, California 94043
-                  US" target="_blank"
+                <a
+                  href="https://www.google.com/maps/search/1600 Amphitheatre Parkway Mountain View, California 94043
+                  US"
+                  target="_blank"
                   >1600 Amphitheatre Parkway Mountain View, California 94043
                   US</a
                 >
@@ -72,10 +69,16 @@
               <div class="contact_find_box">
                 <h2 class="contact_find_box_title">Follow Us</h2>
                 <ul class="contact_find_box_social">
-                  <li><a href="https://www.fb.com" target="_blank">Facebook</a></li>
-                  <li><a href="https://www.x.com" target="_blank">Twitter</a></li>
                   <li>
-                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://www.fb.com" target="_blank">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="https://www.x.com" target="_blank">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com" target="_blank"
+                      >Instagram</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -117,7 +120,6 @@
         </div>
       </section>
 
-
       <section class="footer" id="footer">
         <div class="footer_scroll">
           <a href="#contact"><i class="fa-solid fa-arrow-up"></i></a>
@@ -139,6 +141,5 @@
       src="https://kit.fontawesome.com/7d39f0a187.js"
       crossorigin="anonymous"
     ></script>
-  
   </body>
 </html>
