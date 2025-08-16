@@ -92,54 +92,86 @@
     }
   }
 
-  .container {
+  .container_slider {
+    width: 79.2%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 138px 0 170px 0;
     .row {
+      flex-direction: column;
       h3 {
         font-size: 36px;
         font-weight: 600;
         line-height: 45px;
         letter-spacing: -1px;
         text-align: center;
+        margin-bottom: 63px;
       }
 
-      .mySwiper {
+      .swiper_content {
         width: 100%;
         padding-bottom: 80px;
         .slider_box {
-          max-width: 50%;
-          .slider_box_text {
-            color: variables.$black65;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 36px;
-            margin-bottom: 36px;
-          }
+          display: flex;
+          align-items: flex-start;
+          gap: 32px;
 
-          .silder_box_user {
-            display: flex;
-            gap: 18px;
-            align-items: center;
-            .user_img {
-              width: 72px;
-              height: 72px;
-              img {
-                border-radius: 50%;
-                width: 100%;
-                height: 100%;
+          .slider_box_content {
+            .slider_box_text {
+              color: variables.$black65;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 36px;
+              margin-bottom: 36px;
+            }
+
+            .silder_box_user {
+              display: flex;
+              gap: 18px;
+              align-items: center;
+              .user_img {
+                width: 72px;
+                height: 72px;
+                img {
+                  border-radius: 50%;
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .user_detail {
+                .user_name {
+                  font-size: 16px;
+                  font-weight: 700;
+                  line-height: 18.75px;
+                }
+                .user_title {
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 27px;
+                  color: variables.$black45;
+                }
               }
             }
-            .user_detail {
-              .user_name {
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 18.75px;
-              }
-              .user_title {
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 27px;
-                color: variables.$black45;
-              }
+          }
+        }
+
+        .swiper-pagination {
+          bottom: 10px !important;
+          display: flex;
+          justify-content: center;
+          gap: 12px;
+
+          .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            background: #ccc;
+            opacity: 1;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+
+            &-active {
+              background: #000; // active dot color
+              transform: scale(1.3);
             }
           }
         }
@@ -226,24 +258,26 @@
         grid-area: 4 / 2 / 5 / 3;
       }
     }
-  }
 
-  .container {
-    .row {
-      h3 {
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 45px;
-        letter-spacing: -1px;
-        text-align: center;
-      }
+    .container_slider {
+      width: 86.2%;
+      padding: 108px 0 160px 0;
+      .row {
+        .swiper_content {
+          .slider_box {
+            .slider_box_quote {
+              display: none;
+            }
 
-      .mySwiper {
-        width: 100%;
-        .slider_box {
-          width: 100%;
-          .slider_box_text {
-            text-align: center;
+            .slider_box_content {
+              .slider_box_text {
+                text-align: center;
+              }
+
+              .silder_box_user {
+                justify-content: center;
+              }
+            }
           }
         }
       }
@@ -280,6 +314,36 @@
       }
       .grid_eight {
         grid-area: 8 / 1 / 9 / 2;
+      }
+    }
+
+    .container_slider {
+      width: 87.5%;
+      padding: 48px 0 48px 0;
+      .row {
+        h3 {
+          font-size: 24px;
+          margin-bottom: 28px;
+        }
+
+        .swiper_content {
+          .slider_box {
+            .slider_box_content {
+              .slider_box_text {
+                font-size: 15px;
+                line-height: 28px;
+                margin-bottom: 28px;
+              }
+
+              .silder_box_user {
+                .user_img {
+                  width: 56px;
+                  height: 56px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
